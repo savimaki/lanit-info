@@ -1385,10 +1385,33 @@ body {
 .cid-rltjDjO7ee {
   background-image: url("../../../assets/images/reina-kousaka-588208-unsplash-2000x1333.jpg");
 }
+.cid-rlwXG3wS4O {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2e2e2e;
+}
+.cid-rlwXG3wS4O .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-rlwXG3wS4O .section-text {
+  padding: 2rem 0;
+}
+.cid-rlwXG3wS4O .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-rlwXG3wS4O .inner-container {
+    width: 100% !important;
+  }
+}
 .cid-rluhxBgIKp {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #2e2e2e;
+  background-image: url("../../../assets/images/rafael-pol-474017-unsplash-2000x1542.jpg");
 }
 .cid-rluhxBgIKp .mbr-section-subtitle {
   color: #ffffff;
