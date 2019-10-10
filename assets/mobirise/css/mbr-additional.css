@@ -1442,7 +1442,7 @@ body {
 .cid-rBSUf7ArDS {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #2e2e2e;
+  background-image: url("../../../assets/images/blurrystock-582157-unsplash-2000x1335.jpg");
 }
 .cid-rBSUf7ArDS .card-box {
   background-color: #ffffff;
@@ -1856,8 +1856,8 @@ body {
   }
 }
 .cid-rluiEq1tnv {
-  padding-top: 15px;
-  padding-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 15px;
   background: linear-gradient(0deg, #2e2e2e, #2e2e2e);
 }
 .cid-rluiEq1tnv .mbr-iconfont-social {
