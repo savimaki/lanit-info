@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "lanit.savimaki.cc",
-    "currentPage": "404.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -35,12 +35,12 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
-    "favicon": "@PROJECT_PATH@/assets/images/favicon-1.ico",
+    "favicon": "@PROJECT_PATH@/assets/images/lanitstolle-128x128-1.png",
     "noImageResize": "",
     "siteUrl": "https://lanit.savimaki.cc",
     "cookiesAlert": "",
     "gdpr": "",
-    "google-analytics": "<meta name=\"keywords\" content=\"Lanit, Nuorisovaltuusto, Stolle, Lanit at Stolle, Lanit @ Stolle\">\r\n<meta name=\"description\" content=\"Lanit @ Stolle Info\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+    "google-analytics": "<meta name=\"keywords\" content=\"Lanit, Nuorisovaltuusto, Stolle, Lanit at Stolle, Lanit @ Stolle\">\r\n<meta name=\"description\" content=\"Lanit @ Stolle Info\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n<link rel=\"image_src\" href=\"https://github.com/savimaki/lanit-info/blob/master/lanit%40stolle.png\">\r\n",
     "сanonical-url": "",
     "uniqCompNum": 10,
     "versionPublish": "4.10.4",
@@ -48,7 +48,10 @@
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\nDisallow: /404.html\nDisallow: /snap.html\n\n\n",
     "robotsSwitcher": "on",
     "sitemapSwitcherAuto": "on",
-    "sitemapSwitcher": "on"
+    "sitemapSwitcher": "on",
+    "witsec-white-label": "on",
+    "witsec-form-subject": "Mobirise Form",
+    "witsec-language": "fi"
   },
   "pages": {
     "index.html": {
