@@ -1,4 +1,5 @@
 @font-face {
-   font-family: 'glacialindifferenceregular';
-   src: url('glacialindifferenceregular/font.woff');
+   font-family: 'GlacialIndifference-Regular';
+   font-display: swap;
+   src: url('GlacialIndifference-Regular/font.woff');
 }

@@ -3,21 +3,18 @@
 		<loc>https://lanit.savimaki.cc/index.html</loc>
 	</url>
 	<url>
-		<loc>https://lanit.savimaki.cc/vanhemmille.html</loc>
-	</url>
-	<url>
-		<loc>https://lanit.savimaki.cc/rules.html</loc>
-	</url>
-	<url>
-		<loc>https://lanit.savimaki.cc/faq.html</loc>
-	</url>
-	<url>
-		<loc>https://lanit.savimaki.cc/ilmoittautuminen.html</loc>
-	</url>
-	<url>
 		<loc>https://lanit.savimaki.cc/404.html</loc>
 	</url>
 	<url>
-		<loc>https://lanit.savimaki.cc/pizzatilaus.html</loc>
+		<loc>https://lanit.savimaki.cc/vanhemmille.html</loc>
+	</url>
+	<url>
+		<loc>https://lanit.savimaki.cc/FAQ.html</loc>
+	</url>
+	<url>
+		<loc>https://lanit.savimaki.cc/saannot.html</loc>
+	</url>
+	<url>
+		<loc>https://lanit.savimaki.cc/ilmoittautuminen.html</loc>
 	</url>
 </urlset>
