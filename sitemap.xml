@@ -9,12 +9,12 @@
 		<loc>https://lanit.savimaki.cc/vanhemmille.html</loc>
 	</url>
 	<url>
-		<loc>https://lanit.savimaki.cc/FAQ.html</loc>
-	</url>
-	<url>
 		<loc>https://lanit.savimaki.cc/saannot.html</loc>
 	</url>
 	<url>
 		<loc>https://lanit.savimaki.cc/ilmoittautuminen.html</loc>
+	</url>
+	<url>
+		<loc>https://lanit.savimaki.cc/faq.html</loc>
 	</url>
 </urlset>
