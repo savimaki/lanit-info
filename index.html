@@ -44,70 +44,7 @@
 
 
   
-  <section class="mbr-section" id="witsec-modal-window-block-4" data-rv-view="0">
-
-	<style>
-	/* Let's not animate the contents of modal windows */
-	.no-anim {
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
-	</style>
-
-	
-	
-	<div><div class="modal fade" id="COVID-19-HUOMIO-" tabindex="-1" role="dialog" aria-labelledby="COVID-19-HUOMIO-Label" aria-hidden="true">  <div class="modal-dialog  " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="COVID-19-HUOMIO-Label">Koronarajoitukset</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="COVID-19-HUOMIO-_body">Tällä kertaa laneihin otetaan vain maksimissaan 18 ihmistä, joten ilmoittauduthan nopeasti, jos haluat paremman todennäköisyyden paikan saamiseen.</div><div class="modal-footer"></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#COVID-19-HUOMIO-").on("hidden.bs.modal", function () {    var html = $( "#COVID-19-HUOMIO-_body" ).html();    $( "#COVID-19-HUOMIO-_body" ).empty();    $( "#COVID-19-HUOMIO-_body" ).append(html);  })});</script></div>
-
-	<script>
-	if (typeof OpenModal === 'undefined') {
-		OpenModal = function(modalName) {
-			if ($('#' + modalName).length)
-				$('#' + modalName).modal('show');
-			else
-				alert("Sorry, but there is no modal for " + modalName);
-		}
-	}
-
-	function modalSetCookie(cname, cvalue, exdays) {
-		var d = new Date();
-		d.setTime(d.getTime() + (exdays*24*60*60*1000));
-		var expires = "expires="+ d.toUTCString();
-		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-	}
-
-	function modalGetCookie(cname) {
-		var name = cname + "=";
-		var decodedCookie = decodeURIComponent(document.cookie);
-		var ca = decodedCookie.split(';');
-		for(var i = 0; i <ca.length; i++) {
-			var c = ca[i];
-			while (c.charAt(0) == ' ') {
-				c = c.substring(1);
-			}
-			if (c.indexOf(name) == 0) {
-				return c.substring(name.length, c.length);
-			}
-		}
-		return "";
-	}
-	</script>
-
-</section><script>
-document.addEventListener("DOMContentLoaded", function() {
-  if (modalGetCookie("COVID-19-HUOMIO-_viewed") == "") {
-    setTimeout( function() {
-      if (document.cookie)
-        modalSetCookie("COVID-19-HUOMIO-_viewed", true, 3600);
-      OpenModal("COVID-19-HUOMIO-");
-    } , 1000);
-  }
-});
-</script>
-
-<section class="header6 cid-syx33N1YSf mbr-fullscreen" id="header6-0">
+  <section class="header6 cid-syx33N1YSf mbr-fullscreen" id="header6-0">
 
     
 
@@ -118,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="col-12 col-lg-11">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>LOCALAN</strong></h1>
                 
-                <p class="mbr-text mbr-white mbr-fonts-style display-7">LocaLAN on Nuorisotalo Stollella tapahtuva toistuva ilmainen verkkopelitapahtuma, joka järjestetään normaalisti muutaman kerran vuodessa. Tapahtumaan ei ole pääsymaksua.<br><br><strong>2.-4.7. klo: 17:00 - 12:00</strong></p>
+                <p class="mbr-text mbr-white mbr-fonts-style display-7">LocaLAN on Nuorisotalo Stollella tapahtuva toistuva ilmainen verkkopelitapahtuma, joka järjestetään normaalisti muutaman kerran vuodessa. Tapahtumaan ei ole pääsymaksua.<br><br><strong>22.-23.10. klo: 17:00 - 18:00</strong></p>
                 <div class="mbr-section-btn mt-3"><a class="btn btn-white-outline display-4" href="ilmoittautuminen.html">ILMOITTAUTUMINEN</a> <a class="btn btn-white-outline display-4" href="vanhemmille.html">VANHEMMILLE</a> <a class="btn btn-white-outline display-4" href="faq.html">FAQ</a> <a class="btn btn-white-outline display-4" href="saannot.html">SÄÄNNÖT</a></div>
             </div>
         </div>
@@ -145,14 +82,14 @@ document.addEventListener("DOMContentLoaded", function() {
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <h3 class="mbr-section-title mb-5 align-center mbr-fonts-style display-2">
-                    <strong>Aikaa lanipäivään 2.7.</strong></h3>
+                    <strong>Aikaa lanipäivään 22.10.</strong></h3>
                 
                 <div class="countdown-cont align-center mb-5">
                     <div class="daysCountdown col-xs-3 col-sm-3 col-md-3" title="Päivää"></div>
                     <div class="hoursCountdown col-xs-3 col-sm-3 col-md-3" title="Tuntia"></div>
                     <div class="minutesCountdown col-xs-3 col-sm-3 col-md-3" title="Minuuttia"></div>
                     <div class="secondsCountdown col-xs-3 col-sm-3 col-md-3" title="Sekuntia"></div>
-                    <div class="countdown" data-due-date="2021/07/02"></div>
+                    <div class="countdown" data-due-date="2021/10/22"></div>
                 </div>
                 
                 
